@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Domine&family=Montserrat:wght@300;400;700&family=Open+Sans:wght@300;400;700&family=Roboto+Condensed:wght@300&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-family: 'Montserrat';
+    font-weight: 500;
+    font-size: 22px;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #FFBCD1;
+}
+input {
+     margin: 2px;
+     border: none;
+     border-radius: 3px;
+}
+
+input[type=text] {
+    width: calc(100% - 4px);
+    height: 40px;
+}
+input[type=button] {
+    width: 100px;
+    height: 50px;
+}
